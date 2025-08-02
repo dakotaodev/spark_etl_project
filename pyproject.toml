@@ -1,0 +1,16 @@
+[project]
+name = "spark-etl-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "loguru>=0.7.3",
+    "pandas>=2.3.1",
+    "pyarrow>=21.0.0",
+    "pyspark>=4.0.0",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.4",
+    "tiktokapi>=7.1.0",
+]
