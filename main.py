@@ -1,6 +1,7 @@
-def main():
-    print("Hello from spark-etl-project!")
+from jobs.run_etl import run_pipeline
 
+def main():
+    run_pipeline()
 
 if __name__ == "__main__":
     main()

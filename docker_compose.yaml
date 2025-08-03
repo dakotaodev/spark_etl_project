@@ -1,0 +1,12 @@
+version: '3'
+services:
+  spark:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - .:/app
+    working_dir: /app
+    environment:
+      - PYSPARK_PYTHON=python3
+    entrypoint: tail -f /dev/null  # So you can exec into it

@@ -14,3 +14,6 @@ dependencies = [
     "requests>=2.32.4",
     "tiktokapi>=7.1.0",
 ]
+
+[project.scripts]
+etl = "jobs.run_etl:run_pipeline"
